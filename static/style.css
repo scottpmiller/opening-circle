@@ -1,0 +1,268 @@
+/* GENERAL */
+html {
+	min-width: 1200px;
+	text-align:center;
+	margin:0;
+	padding:0;
+	min-height:100%;
+	background-color: #2E5C8A;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#162A3C', endColorstr='#2E5C8A');
+	background: -moz-linear-gradient(top, #162A3C, #2E5C8A);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#162A3C), to(#2E5C8A));
+	color: #292944;
+}
+.main-container{
+	text-align: left;
+	width: 1025px;
+	margin: 0 auto;
+	padding: 0;
+}
+#container {
+	min-height:100%;
+	position:relative;
+}
+
+/* HEADER */
+#header {
+	/*border: 2px solid #2E5C8A;*/
+	background-color: #070B11;
+	display: block;
+	margin-top: 10px;
+	height: 205px;
+}
+.header-container{
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+#headerLogoContainer {
+	padding: 10px 10px 10px 10px;
+	height: 185px;
+	width: 185px;
+}
+#headerLogoContainer a img{
+	border:0;
+}
+#headerImageContainer {
+	padding: 10px 10px 10px 10px;
+}
+#headerLogoContainer img{
+	height: 185px;
+	width: 185px;
+}
+
+#headerImageContainer {
+	padding: 10px 10px 10px 10px;
+}
+#headerImage {
+	height: 185px;
+	width: 185px;
+}
+
+/* NAVIGATION MENU */
+#nav {
+	background-color: #0A1118;
+	height: 45px;
+}
+#nav ul {
+	width: 1000px;
+	height: 45px;
+	margin: 0px;
+	padding: 0px 0px 0px 40px;
+	list-style-type: none;
+	list-style-image: none;
+	display: block;
+}
+#nav ul li {
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	display: block;
+	float: left;
+}
+#nav ul li a {
+	font-weight: 900;
+	font-size: 16px;
+	text-transform: uppercase;
+	display: block;
+	text-decoration: none;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+	color: #83898F;
+	vertical-align: middle;
+}
+#nav ul li.nav-item-selected a{
+	color: #FFFF80;
+}
+#nav ul li a:hover {
+	color: #FFFF80;
+}
+
+#nav ul li ul {
+    display: none;
+	width: 150px;
+	padding: 0px;
+}
+#nav ul li ul li {
+	width: 150px;
+	display: block;
+    position: relative;
+    float: left;
+}
+#nav ul li ul li a {
+	width: 150px;
+	display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+	background: #162A3C;
+    white-space: nowrap;
+}
+#nav ul li ul li a:hover {
+	background: #0A1118;
+}
+#nav ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+#nav ul li:hover ul li {
+    float: none;
+}
+
+/* BODY */
+#body {
+	/* background-color: white; */
+	/* background-color: #F3F6F9; */
+	/* background-color: #FFFFE3; */
+	background-color: #F3F6F9;
+	min-height: 400px;
+	margin-bottom:20px;   /* Height of the footer */
+	-moz-box-shadow: 0 1px 1px black;
+	-webkit-box-shadow: 0 1px 1px black;
+	box-shadow: 0 20px 20px black;
+}
+
+/* HOME */
+
+.home-main-cont {
+	padding: 60px 40px 40px 40px;
+	margin: 0px auto 0px auto;
+	width: 700px;
+	text-align: center;
+}
+
+.home-title {
+	font-family: Lato, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-align: center;
+}
+
+.home-desc {
+	font-size: 20px;	
+	margin-top: 30px;
+}
+
+.home-sponsor {
+	font-size: 18px;	
+	margin-top: 30px;
+}
+
+div.home-sponsor div.sponsor_logo {
+	margin-top: 15px;
+}
+
+div.home-sponsor div.sponsor_logo img{
+	height: 85px;
+	width: 85px;
+	border: 0;
+}
+
+
+/* ABOUT US */
+
+.aboutus-main-cont {
+	padding: 60px 40px 40px 40px;
+	margin: 0px auto 0px auto;
+	width: 750px;
+	text-align: center;
+}
+
+.aboutus-desc {
+	font-size: 20px;	
+}
+
+/* CONTACT US */
+
+.contactus-main-cont {
+	padding: 60px 40px 40px 40px;
+	margin: 0px auto 0px auto;
+	width: 600px;
+	text-align: center;
+}
+
+.contactus-title {
+	margin-bottom: 20px;
+	font-size: 20px;	
+}
+
+.contactus-desc {
+	font-size: 20px;	
+}
+
+.contactus-footer {
+	margin-top: 20px;
+	font-size: 20px;	
+}
+
+/* SERVICES */
+.services-main-cont {
+	padding: 40px;
+	margin: 0px auto 0px auto;
+	width: 500px;
+	text-align: center;
+}
+.services-main-title {
+	display: block;
+	font-size: 24px;
+	font-weight: bolder;
+}
+.services-sub-cont {
+	
+}
+.services-sub-title {
+	margin-top: 20px;
+	display: block;
+	font-size: 19px;
+	font-weight: bold;
+}
+.services-item-cont {
+
+}
+.services-item-title {
+	display: block;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.services-item-desc {
+	
+}
+
+/* SOCIAL MEDIA */
+#socialmedia {
+	left:30px;
+	top:300px;
+}
+/* FOOTER */
+#footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:60px;
+	background:#6cf;
+}
